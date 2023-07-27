@@ -33,11 +33,11 @@ public class Birb {
                 break;
         }
          try {
-           birb1 = ImageIO.read(new File("birb1.jpeg"));
+           birb1 = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\birb1.jpeg"));
         } catch (IOException ex) {
         }
         try {
-           birb2 = ImageIO.read(new File("birb2.jpeg"));
+           birb2 = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\birb2.jpeg"));
         } catch (IOException ex) {
         } 
     }

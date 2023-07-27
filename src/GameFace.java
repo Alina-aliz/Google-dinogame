@@ -65,7 +65,7 @@ public class GameFace  extends javax.swing.JFrame implements KeyEventDispatcher 
         for(int d=0;d<s.dots.size();d++)
             s.dots.get(d).drawSand(g);
         for(int e=0;e<s.cloudy.size();e++)
-            s.cloudy.get(e).drawCloud(g);
+            s.cloudy.get(e).drawCloud(g); 
         //draw our player
         di.drawDino(g); 
         g.setColor(Color.black);

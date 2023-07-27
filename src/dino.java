@@ -27,27 +27,27 @@ public class dino {
     
     public dino (int x, int y){
         try {
-           dinoStand = ImageIO.read(new File("dinoStand.jpeg"));
+           dinoStand = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\dinoStand.jpeg"));
         } catch (IOException ex) {
         }
         try {
-           dinoRun1 = ImageIO.read(new File("dinoRun1.jpeg"));
+           dinoRun1 = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\dinoRun1.jpeg"));
         } catch (IOException ex) {
         }
         try {
-           dinoRun2 = ImageIO.read(new File("dinoRun2.jpeg"));
+           dinoRun2 = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\dinoRun2.jpeg"));
         } catch (IOException ex) {
         }
         try {
-           dinoDead = ImageIO.read(new File("dinoDead.jpeg"));
+           dinoDead = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\dinoDead.jpeg"));
         } catch (IOException ex) {
         }
         try {
-           Duckdino1 = ImageIO.read(new File("Duckdino1.jpeg"));
+           Duckdino1 = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\duckDino1.jpeg"));
         } catch (IOException ex) {
         }
         try {
-           Duckdino2 = ImageIO.read(new File("Duckdino2.jpeg"));
+           Duckdino2 = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\duckDino2.jpeg"));
         } catch (IOException ex) {
         }
         this.sprite=1; this.x=x; this.y=0;

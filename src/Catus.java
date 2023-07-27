@@ -20,26 +20,29 @@ public class Catus {
             case 1:
                 y=11;
                 try {
-                    cactus = ImageIO.read(new File("lonelyCactus.jpeg"));
+                    cactus = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\lonelyCactus.jpeg"));
                     rangeX=37;
                     rangeY=65;
                 } catch (IOException ex) {
+                    System.out.print("Drew a cat1");
                 }   break;
             case 2:
                 y=-1;
                 try {
-                    cactus = ImageIO.read(new File("lonelyCactusButBig.jpeg"));
+                    cactus = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\lonelyCactusButBig.jpeg"));
                     rangeX=40;
                     rangeY=80;
                 } catch (IOException ex) {
+                    System.out.print("Drew a cat2");
                 }   break;
             default:
                 y=5;
                 try {
-                    cactus = ImageIO.read(new File("partyCactus.jpeg"));
+                    cactus = ImageIO.read(new File("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\partyCactus.jpeg"));
                     rangeX=71;
                     rangeY=70;
                 } catch (IOException ex) {
+                    System.out.print("Drew a cat3");
                 }   break;
         }
     }   
