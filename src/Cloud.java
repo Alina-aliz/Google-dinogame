@@ -12,7 +12,7 @@ public class Cloud {
         x=920;
         y=(int)(Math.random()*50)+10;
         try {
-           cloud = ImageIO.read(new File ("C:\\Users\\Alina\\Documents\\projects\\Google-dinogame\\src\\assets\\cloud.jpeg"));
+           cloud = ImageIO.read(Cloud.class.getResource("/assets/cloud.jpeg"));
         } catch (IOException ex) {
         }
     }
